@@ -28,4 +28,5 @@ spec:
   lifecycle: active
   partOf:
     - scorecard
+  appConfigNotRequired: true
   appConfigExamples: []
