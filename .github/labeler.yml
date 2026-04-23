@@ -152,7 +152,7 @@ workspace/scaffolder-backend-module-kubernetes:
   - 'Workspace\\s*scaffolder-backend-module-kubernetes'
 
 workspace/scaffolder-backend-module-regex:  
-- 'Workspace\\s*scaffolder-backend-module-regex'
+  - 'Workspace\\s*scaffolder-backend-module-regex'
 
 workspace/scaffolder-backend-module-servicenow:
   - 'Workspace\\s*scaffolder-backend-module-servicenow'
