@@ -19,6 +19,9 @@ async function docsTextHighlight(page: Page) {
 
 test.describe("TechDocs", () => {
   test.beforeAll(async ({ rhdh }) => {
+    // Allow time for deployment + 1 min provider refresh delay + browser setup
+    test.setTimeout(10 * 60 * 1000);
+
     await rhdh.configure({
       auth: "keycloak",
       appConfig: "tests/config/techdocs/app-config-rhdh.yaml",
