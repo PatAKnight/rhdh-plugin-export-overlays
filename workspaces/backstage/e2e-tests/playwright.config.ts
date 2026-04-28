@@ -1,7 +1,4 @@
 import { defineConfig } from "@red-hat-developer-hub/e2e-test-utils/playwright-config";
-import dotenv from "dotenv";
-
-dotenv.config({ path: `${import.meta.dirname}/.env` });
 
 /**
  * Backstage workspace e2e test configuration.
@@ -10,19 +7,19 @@ dotenv.config({ path: `${import.meta.dirname}/.env` });
 export default defineConfig({
   projects: [
     {
-      name: 'backstage-github-org-discovery',
+      name: "backstage-github-org-discovery",
       testMatch: /tests\/specs\/github-org-discovery\.spec\.ts/,
     },
     {
-      name: 'backstage-github-discovery',
+      name: "backstage-github-discovery",
       testMatch: /tests\/specs\/github-discovery\.spec\.ts/,
     },
     {
-      name: 'backstage-gitlab-discovery',
+      name: "backstage-gitlab-discovery",
       testMatch: /tests\/specs\/gitlab-discovery\.spec\.ts/,
     },
     {
-      name: 'backstage-github-events',
+      name: "backstage-github-events",
       testMatch: /tests\/specs\/github-events-module\.spec\.ts/,
     },
     {

@@ -1,7 +1,7 @@
 plugins:
   - package: ./dynamic-plugins/dist/backstage-plugin-techdocs
-    disabled: false
+    disabled: true
   - package: ./dynamic-plugins/dist/backstage-plugin-techdocs-backend-dynamic
-    disabled: false
+    disabled: true
   - package: ./dynamic-plugins/dist/backstage-plugin-techdocs-module-addons-contrib
-    disabled: false
+    disabled: true
